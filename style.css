@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding: 0;
+	border-style: border-box;
+}
+body{
+	background-color: #88d8b0;
+}
+.service{
+	width: 25%;
+}
+.container{
+	width: 50%;
+	border: 2px solid black;
+	margin: 10% 0 0 25%;
+	border-radius: 2%;
+	background-color: white;
+}
+h1{
+	font-size: 40px;
+	color:white;
+	background-color: #ff6f69;
+	text-align: center;
+	border-radius: 2%;
+}
+h3{
+	margin: 5% 0 0 5%;
+}
+#bill, #people_bill,.service{
+	width: 90%;
+	height: 25px;
+	margin-left: 5%;
+}
+
+#submit{
+	font-weight: bold;
+	font-size: 20px;
+	width: 50%;
+	height: 30px;
+	border: none;
+	color:white;
+	border-radius: 2%;
+	background-color: #ff6f69;
+	margin:20px 0 20px 25%;
+}
+p{
+	text-align: center;
+}
+#submit:hover{
+	background-color: #ffcc5c;
+	color:black;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<div class="container" id ="container">
+			<h1>TIP CALCULATOR</h1>
+			<h3>How much was your bill?</h3>
+			<input type ="number" id="bill"  step="0.01" min="-100" max="100">
+			<h3>How many people will share the bill?</h3>
+			<input type ="number" id="people_bill" min="0" max="100">
+			<h3>How Was Your Service</h3>
+			<select class="service" id="service">
+				<option>Choose item</option>
+				<option>Great-20%</option>
+				<option>Good-10%</option>
+				<option>Bad-2%</option>
+			</select><br>
+			<button id="submit">Submit</button>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
